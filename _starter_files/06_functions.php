@@ -12,3 +12,25 @@
     // code to be executed
   }
 */
+function registerUser($email) {
+  
+  echo $email . 'user Registered';
+}
+// registerUser('Brad');
+
+function sum($n1 = 4, $n2 = 8) {
+  return $n1 + $n2;
+
+}
+
+$nub =  sum();
+// echo $nub;
+
+$multiply = fn($n1, $n2) => $n1 * $n2;
+echo $multiply(10, 5);
+// echo $subtract(10, 5);
+
+
+
+
+
