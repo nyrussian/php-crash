@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
     // Set Session variable
     $_SESSION['username'] = $username;
     // Redirect user to another page
-    header('Location: /php-crash/extras/dashboard.php');
+    header('Location: ./extras/dashboard.php');
   } else {
     echo 'Incorrect username or password';
   }
@@ -46,3 +46,5 @@ if (isset($_POST['submit'])) {
     <br>
     <input type="submit" name="submit" value="Submit">
   </form>
+  <br>
+  <a href="./extras/dashboard.php">Dashboard</a>
