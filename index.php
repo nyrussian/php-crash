@@ -34,7 +34,7 @@ echo "hello again"
         <a href="13_sessions.php">13_sessions.php</a> <br>
         <a href="14_file_handling.php">14_file_handling.php</a> <br>
         <a href="15_file_upload.php">15_file_upload.php</a> <br>
-        <a href="16_exeptions.php">16_exeptions.php</a> <br>
+        <a href="16_exceptions.php">16_exeptions.php</a> <br>
         <a href="17_oop.php">17_oop.php</a> <br><br>
         <a href="./extras/dashboard.php">Dashboard</a>
     </div>
