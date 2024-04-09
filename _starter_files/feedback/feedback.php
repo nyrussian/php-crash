@@ -20,7 +20,8 @@ $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <div class="card-body text-center">
       <?php echo $item['body']; ?>
       <div class="text-secondary mt-2">
-        By <?php echo $item['name']; ?> on <?php echo $item['date']; ?>
+        By <?php echo $item['name']; ?> on <?php echo $item['date']; ?><BR>
+        Via email <a href =mailto:<?php echo $item['email']; ?>><?php echo $item['email']; ?></a>
       </div>
 
     </div>
